@@ -1,0 +1,1 @@
+/home/jaramy/ros_gazebo/devel/.private/turtlebot3_teleop/lib/pkgconfig/turtlebot3_teleop.pc

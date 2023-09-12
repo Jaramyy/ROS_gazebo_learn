@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/jaramy/ros_gazebo/devel/.private/turtlebot3_bringup/setup.sh
