@@ -20,21 +20,27 @@ https://cmake.org/download/
 
 
 #### command run robot 
+```bash
 roslaunch turtlebot3_gazebo turtlebot3_world.launch
+```
 
-command robot's velocity using "rqt" and robot steering to control movement 
+##### command robot's velocity using "rqt" and robot steering to control movement 
 
 
 #### SLAM 
+```bash
 export TURTLEBOT3_MODEL=waffle
 roslaunch turtlebot3_gazebo turtlebot3_world.launch
-
+```
 
 ##### install SLAM
+```bash
 sudo apt-get install ros-noetic-gmapping
+```
+
 
 ##### run SLAM
-```
+```bash
 export TURTLEBOT3_MODEL=waffle
 
 ```
@@ -77,7 +83,7 @@ sudo apt-get install ros-noetic-move-base
 ```
 
 
-
+#### run navigation 
 ```bash
 export TURTLEBOT3_MODEL=waffle
 ```
