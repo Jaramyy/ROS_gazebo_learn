@@ -34,13 +34,23 @@ roslaunch turtlebot3_gazebo turtlebot3_world.launch
 sudo apt-get install ros-noetic-gmapping
 
 ##### run SLAM
+export TURTLEBOT3_MODEL=waffle
 roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
 
 
-#### install map server 
+#### Install map server 
 sudo apt-get install ros-noetic-map-server
 
-##### Save map 
-rosrun map_server map_saver -f ~/map
+##### Save map
+export TURTLEBOT3_MODEL=waffle   
+rosrun map_server map_saver -f ~/map       (map is filename, you can edit!)
+
+
+### Navigation 
+export TURTLEBOT3_MODEL=waffle
+roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map.yaml 
+
+
+
 
 
