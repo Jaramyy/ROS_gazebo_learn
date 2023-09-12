@@ -16,3 +16,17 @@ https://github.com/ROBOTIS-GIT/turtlebot3_simulations
 
 
 https://cmake.org/download/
+
+
+
+#### command run robot 
+roslaunch turtlebot3_gazebo turtlebot3_world.launch
+
+command robot's velocity using "rqt" and robot steering to control movement 
+
+
+#### SLAM 
+export TURTLEBOT3_MODEL=waffle
+roslaunch turtlebot3_gazebo turtlebot3_world.launch
+
+roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
