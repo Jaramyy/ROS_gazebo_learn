@@ -1,0 +1,4 @@
+Symlinking /home/jaramy/ros_gazebo/devel/lib/turtlebot3_gazebo/turtlebot3_drive
+Symlinking /home/jaramy/ros_gazebo/devel/lib/pkgconfig/turtlebot3_gazebo.pc
+Symlinking /home/jaramy/ros_gazebo/devel/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake
+Symlinking /home/jaramy/ros_gazebo/devel/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake
