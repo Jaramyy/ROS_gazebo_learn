@@ -36,7 +36,11 @@ sudo apt-get install ros-noetic-gmapping
 ##### run SLAM
 roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
 
-##### save map 
+
+#### install map server 
+sudo apt-get install ros-noetic-map-server
+
+##### Save map 
 rosrun map_server map_saver -f ~/map
 
 
