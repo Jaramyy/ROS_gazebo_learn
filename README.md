@@ -29,4 +29,9 @@ command robot's velocity using "rqt" and robot steering to control movement
 export TURTLEBOT3_MODEL=waffle
 roslaunch turtlebot3_gazebo turtlebot3_world.launch
 
+
+install SLAM
+sudo apt-get install ros-noetic-gmapping
+
+run SLAM
 roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
