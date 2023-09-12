@@ -92,7 +92,11 @@ export TURTLEBOT3_MODEL=waffle
 roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map.yaml 
 ```
 
+#### Record ROS Bag 
+```bash
+ 
+ rosbag record -a 
 
+```
 
-
-
+-a is record all
