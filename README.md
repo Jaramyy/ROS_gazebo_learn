@@ -100,3 +100,12 @@ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map
 ```
 
 -a is record all
+
+
+
+
+
+#### Play ROS bag
+```bash
+rosbag play filename.bag
+```
