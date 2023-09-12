@@ -67,10 +67,15 @@ rosrun map_server map_saver -f ~/map       #(map is filename, you can edit!)
 ```bash
 sudo apt-get install ros-noetic-amcl
 ```
-
+#### install movebase
 ```bash
 sudo apt-get install ros-noetic-move-base
 ```
+#### install dwa local planner
+```bash
+ sudo apt-get install ros-noetic-dwa-local-planner
+```
+
 
 
 ```bash
