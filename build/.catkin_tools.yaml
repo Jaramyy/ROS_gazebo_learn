@@ -1,0 +1,6 @@
+devel_space: /home/jaramy/ros_gazebo/devel
+install: false
+install_space: /home/jaramy/ros_gazebo/install
+profile: default
+source_space: /home/jaramy/ros_gazebo/src
+workspace: /home/jaramy/ros_gazebo
