@@ -30,8 +30,13 @@ export TURTLEBOT3_MODEL=waffle
 roslaunch turtlebot3_gazebo turtlebot3_world.launch
 
 
-install SLAM
+##### install SLAM
 sudo apt-get install ros-noetic-gmapping
 
-run SLAM
+##### run SLAM
 roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=gmapping
+
+##### save map 
+rosrun map_server map_saver -f ~/map
+
+
