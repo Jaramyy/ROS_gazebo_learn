@@ -46,9 +46,20 @@ export TURTLEBOT3_MODEL=waffle
 rosrun map_server map_saver -f ~/map       (map is filename, you can edit!)
 
 
+
 ### Navigation 
+```bash
+sudo apt-get install ros-noetic-amcl
+```
+
+
+```bash
 export TURTLEBOT3_MODEL=waffle
+```
+
+```bash
 roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map.yaml 
+```
 
 
 
