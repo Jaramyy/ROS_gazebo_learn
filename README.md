@@ -106,6 +106,8 @@ roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map
 
 
 #### Play ROS bag
+Note!! You have to run roscore first
+
 ```bash
 rosbag play filename.bag
 ```
