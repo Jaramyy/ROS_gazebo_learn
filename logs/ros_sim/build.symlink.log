@@ -1,0 +1,3 @@
+Symlinking /home/jaramy/ros_gazebo/devel/lib/pkgconfig/ros_sim.pc
+Symlinking /home/jaramy/ros_gazebo/devel/share/ros_sim/cmake/ros_simConfig-version.cmake
+Symlinking /home/jaramy/ros_gazebo/devel/share/ros_sim/cmake/ros_simConfig.cmake
